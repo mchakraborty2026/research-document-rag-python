@@ -1,9 +1,13 @@
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 from document_loader import load_documents
 from embeddings import EmbeddingModel
 from vector_store import VectorStore
 from rag_pipeline import RAGPipeline
+
+load_dotenv()
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
