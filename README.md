@@ -1,5 +1,7 @@
 # Research Document RAG in Python
 
+[![Python Tests](https://github.com/mchakraborty2026/research-document-rag-python/actions/workflows/tests.yml/badge.svg)](https://github.com/mchakraborty2026/research-document-rag-python/actions/workflows/tests.yml)
+
 A Python-based Retrieval-Augmented Generation (RAG) project for retrieving relevant information from research documents using semantic search.
 
 The project demonstrates document ingestion, text chunking, sentence-transformer embeddings, FAISS vector search, automated testing, and optional LLM-based answer generation.
