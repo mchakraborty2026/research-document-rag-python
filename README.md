@@ -61,6 +61,9 @@ research-document-rag-python/
 ├── documents/
 │   └── psychosis_suicidality_meta_analysis.pdf
 │
+├── examples/
+│   └── retrieval_example.md
+│
 ├── src/
 │   ├── app.py
 │   ├── document_loader.py
@@ -81,6 +84,7 @@ research-document-rag-python/
 │
 ├── .env.example
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
 ```
@@ -147,6 +151,12 @@ The highest-ranked retrieved passage produced a similarity score of approximatel
 The retrieved passage included evidence that psychotic experiences were associated with significantly increased odds of subsequent suicidal ideation, suicide attempts, and suicide death.
 
 This demonstrates that the system can retrieve relevant research evidence based on semantic similarity rather than exact keyword matching.
+
+## Example Output
+
+A saved example of the semantic retrieval results is available here:
+
+[View Example Retrieval Output](examples/retrieval_example.md)
 
 ## Run the Free Retrieval Demo
 
@@ -276,6 +286,7 @@ The project currently includes:
 - A working research-document retrieval pipeline
 - Semantic search using Sentence Transformers and FAISS
 - Source and similarity-score reporting
+- A saved retrieval example
 - 10 passing automated tests
 - GitHub Actions continuous integration
 - Optional LLM-based answer generation
